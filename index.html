@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <!-- Header-->
+    <header class="header">
+
+        <h1>john doe</h1>
+        <h2>full stack developer | designer | programmer</h2>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a class="nav-link" href="#about">about me</a></li>
+                <li><a class="nav-link" href="#skills">skills</a></li>
+                <li><a class="nav-link" href="#projects">projects</a></li>
+                <li><a class="nav-link" href="#contact">contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- About Section-->
+    <section class="about" id="about">
+
+        <h2>about me</h2>
+        <p>Hi, I'm John, a passionate web developer with over 5 years of experience in building dynamic and
+            responsive
+            websites. I love coding, design, and solving complex problems. I specialize in JavaScript, React, and
+            Node.js.</p>
+        <div class="about-img">
+            <img src="./imgs/about-img.png">
+        </div>
+
+    </section>
+
+    <!-- Skills Section-->
+    <section class="skills" id="skills">
+
+        <h2>skills</h2>
+        <ul class="skill-list">
+            <li><button type="button" class="btn">HTML5 & CSS3</button></li>
+            <li><button type="button" class="btn">javaScript (ES6+)</button></li>
+            <li><button type="button" class="btn">react & redux</button></li>
+            <li><button type="button" class="btn">node.js & express</button></li>
+            <li><button type="button" class="btn">sQL & noSQL databases</button></li>
+            <li><button type="button" class="btn">git & gitHub</button></li>
+            <li><button type="button" class="btn">responsive design</button></li>
+        </ul>
+
+    </section>
+
+    <!-- Projects Section-->
+    <section class="projects" id="projects">
+
+        <h2>projects</h2>
+        <div class="projects-cards">
+            <div class="card" id="card1">
+                <div class="card-head">
+                    <h3 class="card-title">Portfolio Website</h3>
+                </div>
+                <div class="card-body">
+                    <p>A personal portfolio website to showcase my work and skills. Built with HTML. CSS, and
+                        JavaScript.
+                    </p>
+                </div>
+            </div>
+            <div class="card" id="card2">
+                <div class="card-head">
+                    <h3 class="card-title">E-Commerce Site</h3>
+                </div>
+                <div class="card-body">
+                    <p>A fully functional e- commerce platform using React and Node.js. Implements secure user
+                        authentication and Stripe payment integration.</p>
+                </div>
+            </div>
+            <div class="card" id="card3">
+                <div class="card-head">
+                    <h3 class="card-title">Task Management App</h3>
+                </div>
+                <div class="card-body">
+                    <p>A task management application with features
+                        like task creation. categorization and deadline tracking. Built using React and Firebase.</p>
+                </div>
+            </div>
+            <div class="card" id="card4">
+                <div class="card-head">
+                    <h3 class="card-title">Blog Platform</h3>
+                </div>
+                <div class="card-body">
+                    <p>A responsive blog platform where users can create, edit, and publish posts. Built with Node.js,
+                        Express, and MongoDB.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section-->
+    <section class="contact" id="contact">
+
+        <h2>contact me</h2>
+        <p>If you'd like to get in touch, please fill out the form below:</p>
+
+        <form class="contact_form">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" class="form-input" name="name" placeholder="Enter your name">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" class="form-input" name="email" placeholder="Enter your email">
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" placeholder="Enter your message" cols="30" rows="5"
+                    class="form-input"></textarea>
+            </div>
+            <button type="submit" class="form-submit">Submit</button>
+        </form>
+
+    </section>
+
+    <!-- Footer-->
+    <footer>
+        <p>&copy; 2024 john doe | <a href="https://www.github.com" target="_blank" class="social-links">gitHub</a> |
+            <a href="https://www.linkedin.com" target="_blank" class="social-links">linkedIn</a>
+        </p>
+    </footer>
+
+</body>
+
+</html>
